@@ -1,0 +1,29 @@
+// レスポンシブ の設定
+$pc:768px;
+
+@mixin pc {
+  @media (max-width:($pc)){
+    @content;
+  }
+}
+
+
+
+
+
+$link-color: #2962ff !default;
+$link-hover-color: darken($link-color, 5%) !default;
+
+body{
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+  line-height: 1.6;
+}
+li{
+  list-style: none;
+}
+
+// paddingとmarginはemで指定する
