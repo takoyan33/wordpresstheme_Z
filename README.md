@@ -1,0 +1,2 @@
+# wordpresstheme_Z
+wordpress
