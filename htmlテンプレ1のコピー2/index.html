@@ -11,8 +11,8 @@
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,700,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
- <!-- favicon -->
- <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
 
   <!--font-awesome-->
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -28,73 +28,63 @@
 
 <body>
 
+  <!-- header -->
+  <header>
+    <div class="flex flex-between">
+      <div class="logo">
+        <a href="">
+          <h1 class="headername">
+            <span class="name">トリドール<br>詳細</span></h1>
+        </a>
+      </div>
+
+      <!-- ハンバーガー　-->
+      <div id="navArea" class="sp">
+        <nav>
+          <div class="inner">
+            <ul id="menu" class="fwm">
+              <li><a href="#">サンプル</a></li>
+              <li><a href="">サンプル</a></li>
+              <li><a href="">サンプル</a></li>
+            </ul>
+            <a href="" class="txt15 border">サンプル</a>
+            <a href="" class="txt15 border border_last">サンプル</a>
+            <a href="" class="button txt15" target="_blank">サンプル</a>
+            <a class="button txt15" href="" target="_blank">サンプル</a>
+          </div>
+        </nav>
+
+        <div class="toggle_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="mask"></div>
+
+      </div>
+
+      <!-- nav -->
+      <div class="pc nav_pc">
+        <ul class="nav txt16">
+          <li class="nav_item fwb"><a href="">About</a></li>
+          <li class="nav_item fwb"><a href="">MENU</a></li>
+          <li class="nav_item fwb"><a href="">特徴</a></li>
+          <li class="nav_item fwb"><a href="">採用</a></li>
+          <li class="nav_item fwm"><a href="" class="button" target="_blank">予約ボタン</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
   <div class="loader-wrap">
     <div class="loader">Loading...</div>
   </div>
 
 
 
-  <h1>aaa</h1>
 
-    <!-- sec4 -->
-    <section class="sec4">
-      <div class="wrap_inner">
-        <h2 class="txt60 tac">WORKS</h2>
-        <p class="txt18 tac mb50">制作事例</p>
-        <div class='container'>
-          <div class='single-item'>
-            <div class="pr20">
-              <a href="https://www.tv-tokyo.co.jp/csr/" target="_blank"><img class="mb20" src="images/1.png"
-                  alt="実績画像"></a>
-              <a href="https://www.tv-tokyo.co.jp/csr/" target="_blank">
-                <p class="txt16">テレビ東京グループ CSR活動</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="https://hknetservice.jp/" target="_blank"><img class="mb20" src="images/2.png" alt="実績画像"></a>
-              <a href="https://hknetservice.jp/" target="_blank">
-                <p class="txt16">ホンダ開発_HK Net Service</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="https://www.videor.co.jp/audience/" target="_blank"><img class="mb20" src="images/3.png"
-                  alt="実績画像"></a>
-              <a href="https://www.videor.co.jp/audience/" target="_blank">
-                <p class="txt16">株式会社ビデオリサーチ_視聴率サイト</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="https://www.toda.co.jp/yohkan/" target="_blank"><img class="mb20" src="images/4.png"
-                  alt="実績画像"></a>
-              <a href="https://www.toda.co.jp/yohkan/" target="_blank">
-                <p class="txt16">戸田建設株式会社_世にもおかしな建築物PROJECT</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="https://www.taiyo-seimei.co.jp/" target="_blank"><img class="mb20" src="images/5.png"
-                  alt="実績画像"></a>
-              <a href="https://www.taiyo-seimei.co.jp/" target="_blank">
-                <p class="txt16">太陽生命保険</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="http://www.nishi-ganka.or.jp/
-              " target="_blank"><img class="mb20" src="images/6.png" alt="実績画像"></a>
-              <a href="http://www.nishi-ganka.or.jp/
-              " target="_blank">
-                <p class="txt16">西眼科病院</p>
-              </a>
-            </div>
-            <div class="pr20">
-              <a href="https://www.kaoru-pc.jp/" target="_blank"><img class="mb20" src="images/7.png" alt="実績画像"></a>
-              <a href="https://www.kaoru-pc.jp/" target="_blank">
-                <p class="txt16">東京ブロック注射クリニック</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
   <div class="scrollTop"><i class="fas fa-chevron-circle-up"></i></div>
@@ -104,7 +94,9 @@
 
   </footer>
   <!--jquery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="common/js/jquery-3.4.1.min.js"></script>
+  <script src="common/js/jquery.waypoints.min.js"></script>
+  <script src="common/js/slick.js" type="text/javascript"></script>
   <!--AOS.js-->
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
